@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangents</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        button {
+            position: absolute;
+        }
+        #enableBtn {
+            top: 10px;
+            left: 10px;
+        }
+        #eraseBtn {
+            top: 10px;
+            left: 160px;
+        }
+        #moveBtn {
+            top: 10px;
+            left: 293px;
+        }
+        #resizeBtn {
+            top: 10px;
+            left: 425px;
+        }
+    </style>
+</head>
+<body>
+    <button id="enableBtn">Enable Creation Mode</button>
+    <button id="eraseBtn">Enable Erase Mode</button>
+    <button id="moveBtn">Enable Move Mode</button>
+    <button id="resizeBtn">Enable Resize Mode</button>
+    <canvas id="Canva"></canvas>
+    <script src="canva.js"></script>
+</body>
+</html>
